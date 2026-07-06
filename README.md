@@ -10,6 +10,9 @@ provisional 2026 data), sourced from
 > drop a new raw `.txt` file in `data/` and update the station name/lat/lon
 > constants in `scripts/load_data.py`.
 
+<img width="1650" alt="decade_summary" src="https://github.com/user-attachments/assets/51966a30-ba43-4895-bae7-02e48fbf2da9" />
+
+
 ## What's here
 
 ```
@@ -125,6 +128,9 @@ Generates three PNGs in `output/`:
    driest single months fall in March or April (driest: April 2011 at just
    0.5mm) — reinforcing that early autumn is the standout wet period and
    early spring the standout dry spell.
+
+<img width="1350" alt="monthly_rainfall" src="https://github.com/user-attachments/assets/979c92d2-ae8b-463b-8ca6-5a0fca274c9c" />
+
 
 ## Data quality notes
 
