@@ -85,6 +85,7 @@ def chart_temperature_trend(conn):
     print(f"Saved {path}")
 
 
+
 def chart_decade_summary(conn):
     cur = conn.cursor()
     cur.execute(
