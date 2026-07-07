@@ -6,6 +6,7 @@ Generates PNG charts from weather.db into the output/ folder:
   2. temperature_trend.png - line chart of average annual tmax/tmin, 1853-present
   3. decade_summary.png    - bar chart of avg tmax by decade (warming trend)
 """
+
 import sqlite3
 from pathlib import Path
 
