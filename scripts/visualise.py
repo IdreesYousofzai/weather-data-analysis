@@ -113,6 +113,7 @@ def chart_decade_summary(conn):
     print(f"Saved {path}")
 
 
+
 def main():
     conn = get_conn()
     chart_monthly_rainfall(conn)
