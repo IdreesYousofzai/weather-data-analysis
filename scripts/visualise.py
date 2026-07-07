@@ -26,6 +26,7 @@ def get_conn():
     return sqlite3.connect(DB_PATH)
 
 
+
 def chart_monthly_rainfall(conn):
     cur = conn.cursor()
     cur.execute(
