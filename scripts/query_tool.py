@@ -101,6 +101,7 @@ def cmd_avg_temp_by_month(conn):
     print_table(["Month", "Avg TMax C", "Avg TMin C"], rows)
 
 
+
 def cmd_rainfall_by_season(conn):
     cur = conn.cursor()
     cur.execute(
