@@ -229,6 +229,7 @@ Available commands:
 """
 
 
+
 def dispatch(conn, command: str):
     cmd = command.strip().lower()
 
