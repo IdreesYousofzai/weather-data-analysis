@@ -1,6 +1,5 @@
 """
 load_data.py
-
 Creates the SQLite database (weather.db) from schema.sql, then loads the
 cleaned Oxford CSV data into the normalised tables:
   locations -> date_time -> weather_metrics -> observations
