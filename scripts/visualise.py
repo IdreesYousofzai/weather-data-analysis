@@ -22,10 +22,8 @@ OUT_DIR.mkdir(exist_ok=True)
 MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-
 def get_conn():
     return sqlite3.connect(DB_PATH)
-
 
 
 def chart_monthly_rainfall(conn):
