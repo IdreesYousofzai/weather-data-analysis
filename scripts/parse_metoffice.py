@@ -1,6 +1,5 @@
 """
 parse_metoffice.py
-
 Parses UK Met Office historic station data (the plain-text format downloaded
 from metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/) into a clean
 CSV ready for loading into SQLite.
